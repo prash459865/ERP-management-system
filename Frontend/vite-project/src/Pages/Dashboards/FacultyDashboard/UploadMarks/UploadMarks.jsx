@@ -3,7 +3,7 @@ import './UploadMarks.css'
 import { useLocation } from 'react-router-dom'
 import { useApi } from '../../../../Contexts/ApiContext'
 import axios from 'axios'
-import MarksTable from '../../../../Components/marksTable/marksTable'
+import MarksTable from '../../../../Components/marksTable/MarksTable'
 import EditParticularAttendence from '../EditParticularAttendence/EditParticularAttendence'
 
 const UploadMarks = () => {
