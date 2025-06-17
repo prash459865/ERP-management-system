@@ -1,0 +1,109 @@
+.AssignedSubjects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    padding: 1rem;
+}
+.AssignedSubjects-container h2{
+    margin-bottom: 2rem;
+}
+
+.AssignedSubjects-container .AllClasses {
+    margin: 0;
+    height: 25%;
+    width: 100%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    padding: 2rem;
+    overflow-y: scroll;
+}
+
+.AssignedSubjects-container .AllClasses .particularClass {
+    height: 40%;
+    width: 60%;
+    border: 1px solid black;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s ease;
+     box-shadow: 10px 10px 10px rgb(205, 209, 209);
+}
+
+.AssignedSubjects-container .AllClasses .particularClassAfterClick {
+    background-color: aqua;
+    box-shadow: 0 10px 10px rgb(0, 137, 137);
+    height: 40%;
+    width: 60%;
+    border: 1px solid black;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.AssignedSubjects-container .lowersection {
+    height: 75%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.AssignedSubjects-container .lowersection .subjects-list {
+    height: 90%;
+    width: 15%;
+    border: 1px solid black;
+    box-shadow: 10px 10px 10px rgb(205, 209, 209);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+}
+.subjects-list h2{
+    margin-bottom: 1rem;
+    align-self: center;
+}
+.AssignedSubjects-container .lowersection .subjects-list ul {
+    list-style: none;
+    height: fit-content;
+    width: auto;
+    padding: 3px;
+}
+
+.AssignedSubjects-container .lowersection .add-subject-box {
+    height: 40%;
+    width: 20%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgb(205, 209, 209);
+}
+
+.AssignedSubjects-container .lowersection .add-subject-box input {
+    height: 15%;
+    width: 70%;
+}
+
+.AssignedSubjects-container .lowersection .add-subject-box button {
+    height: 15%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+
+}

@@ -1,0 +1,54 @@
+.admin-dashboard {
+  display: flex;
+  height: 100vh;
+  font-family: sans-serif;
+  position: relative;
+}
+
+.sidebar {
+  width: 220px;
+  background-color: #304459;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  margin-bottom: 30px;
+  font-size: 22px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.sidebar li:hover {
+  background-color: white;
+  color: black;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.main-content {
+  flex: 1;
+  padding: 40px;
+  background-color: #ecf0f1;
+}
+.adminNameAndIamge{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.personalImage{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    background-color: white;
+    margin: 7px;
+}

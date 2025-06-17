@@ -1,0 +1,71 @@
+.MarkAttendance {
+  min-height: 100vh;
+  min-width: 100vw;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9f9f9;
+}
+.dateAndHeading{
+    display: flex;
+    align-items: center;
+}
+.dateAndHeading input{
+    height: 2rem;
+}
+h1 {
+  margin: 2rem;
+  font-size: 2rem;
+}
+
+.studentsList {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  border: 1px solid black;
+  padding: 1rem;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.heading {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.heading h3 {
+  border: 1px solid black;
+  padding: 0.5rem;
+  text-align: start;
+  background-color: aqua;
+}
+
+.particularStudent {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  align-items: center;
+  margin: 0.5rem 0;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.particularStudent p {
+  margin: 0;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.particularStudent label {
+  margin-right: 1rem;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.particularStudent input[type="radio"] {
+  margin-right: 0.3rem;
+}

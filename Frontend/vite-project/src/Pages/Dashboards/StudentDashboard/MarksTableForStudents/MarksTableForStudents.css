@@ -1,0 +1,21 @@
+.marks-Table-for-student {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.marks-Table-for-student th,
+.marks-Table-for-student td {
+  border: 1px solid #000;
+  padding: 10px;
+  text-align: center;
+}
+
+.marks-Table-for-student thead {
+  background-color: #f2f2f2;
+}
+
+.marks-Table-for-student tr:hover {
+  background-color: #f9f9f9;
+}

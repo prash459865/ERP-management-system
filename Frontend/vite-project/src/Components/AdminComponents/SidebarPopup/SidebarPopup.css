@@ -1,0 +1,51 @@
+.SidebarPopup {
+  position: absolute;
+  height: auto;
+  width: auto;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding-left: 16px;
+  padding-bottom: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.SidebarPopup button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: gray;
+  height: 15px;
+  width: 30px;
+  border: none;
+  font-size: 18px;
+  float: right;
+  cursor: pointer;
+  color: black;
+  transition: color 0.3s ease;
+}
+
+.SidebarPopup button:hover {
+  color: #000;
+}
+
+.SidebarPopup ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 0 0;
+}
+
+.SidebarPopup li {
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+}
+
+.SidebarPopup li:hover {
+  background-color: #f0f0f0;
+  color: #007bff;
+}

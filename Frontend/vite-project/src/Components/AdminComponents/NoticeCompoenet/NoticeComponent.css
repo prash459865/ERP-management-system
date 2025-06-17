@@ -1,0 +1,9 @@
+.NoticePage{
+    height: 60vh;
+    border: 2px solid black;
+    position: relative;
+}
+.close-btn{
+    position: absolute;
+    color: white;
+}

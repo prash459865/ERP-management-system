@@ -1,0 +1,32 @@
+.AvailableTeachers{
+    text-align: center;
+    width: 25rem;
+    height: 38rem;
+    border: 1px solid black;
+}
+
+.searchBaar input{
+   width: 20rem;
+   border-radius: 7px;
+  
+}
+.particularTeacher{
+    display: flex;
+    gap: 2px;
+    height: auto;
+    width: 20rem;
+    font-size: 15px;
+    border: 1px solid gray;
+    margin: 1rem;
+    padding: 3px;
+    border-radius: 5px ;
+    cursor: pointer;
+}
+.teacherDetail{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.appointDays{
+   font-size: 10px;
+}

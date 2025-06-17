@@ -1,0 +1,62 @@
+.EditClasses {
+  
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f7fa;
+  min-height: 100vh;
+}
+
+.EditClasses h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+  text-align: center;
+}
+
+.AllClasses {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.2rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.particularClass {
+  cursor: pointer;
+  background-color: #ffffff;
+  border: 1px solid #dfe6e9;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  font-size: 1.1rem;
+  color: #34495e;
+  transition: transform 0.2s ease-in-out;
+}
+
+.particularClassAfterClick{
+  cursor: pointer;
+   background-color: aqua;
+   color: white;
+  border: 1px solid #dfe6e9;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  font-size: 1.1rem;
+  color: #34495e;
+  transition: transform 0.2s ease-in-out;
+}
+.Components{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  gap: 20px;
+}
+.nothingtosee{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}

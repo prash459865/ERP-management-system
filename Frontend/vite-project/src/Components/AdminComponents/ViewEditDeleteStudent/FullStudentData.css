@@ -1,0 +1,97 @@
+.FullStudentData {
+  
+  width: 100%;
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  font-family: sans-serif;
+}
+
+.FullStudentData .heading-and-delete{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading-and-delete .delete-student-icon{
+  cursor: pointer;  
+  color: red;
+}
+
+.deleteStudent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.StudentDetails {
+  margin-bottom: 30px;
+}
+
+/* Section headings */
+.StudentDetails h2 {
+  margin-bottom: 10px;
+  color: #333;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 4px;
+}
+
+/* Lists */
+.StudentDetails ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+}
+
+.StudentDetails li {
+  background: #f9f9f9;
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: 1px solid #eee;
+}
+
+.StudentDetails .student-subjects{
+  display: flex;
+  gap: 4px;
+}
+/* Marks table */
+.marksTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.marksTable th,
+.marksTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.marksTable th {
+  background: #f0f0f0;
+}
+
+/* Attendance list */
+.attendanceInfo {
+  margin-top: 10px;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.attendanceInfo li {
+  background: #e8f4ff;
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: 1px solid #cce3ff;
+  flex: 1 1 150px;
+}
+.marksTableForAdmin{
+  height: fit-content;
+}

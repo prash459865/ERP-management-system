@@ -1,0 +1,5 @@
+create three folders admin frontend and backend.
+
+in backend created three models 
+   admin.js, faculties.js, students.js
+

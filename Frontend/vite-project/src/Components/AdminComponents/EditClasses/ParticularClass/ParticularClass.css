@@ -1,0 +1,142 @@
+.ParticularClass{
+  position: relative;
+}
+.dayandtimetable{
+  display: flex;
+}
+.daysname{
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+}
+.daysname p{
+   text-align: center;
+   border: 1px solid black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: aqua;
+}
+.periodNameAtTop{
+  display: flex;
+  flex-direction: column;
+}
+.periodName{
+  display: grid;
+  grid-template-columns: repeat(8,1fr);
+}
+.periodName p{
+  text-align: center;
+   border: 1px solid black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: aqua;
+}
+
+.timetable-grid {
+  height: 610px;               /* fixed height for grid container */
+  width: 65rem;
+  border: 1px solid black;
+  background-color: blue;
+  display: grid;
+  grid-template-columns: 1fr;          /* single column */
+  grid-template-rows: repeat(6, 1fr); /* 4 equal rows */
+                             /* space between rows */
+  
+  
+}
+
+.timetable {
+  text-align: center;
+  background-color: green;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;  
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.particularDay {
+ 
+  background-color: aqua;
+  width: 100%;
+  height: 100%;               /* Fill parent height */
+  display: grid;
+  grid-template-columns: repeat(8, 1fr); /* 8 equal columns */
+  gap: 5px;                   /* gap between lectures */
+}
+
+.particularLecture {
+  text-align: center;
+  background-color: pink;
+  border: 1px solid black;
+  height: 100%;               
+  padding: 5px;              
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 15px;           
+  overflow: hidden;          
+  white-space: nowrap;      
+}
+.particularLecture:hover{
+  background-color: aqua;
+}
+.addLecture{
+  position: absolute;
+  top: 25%;
+  right: 33%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  height: 60%;
+  width: 30%;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  overflow: hidden;
+  background-color: aquamarine;
+}
+.closeButton{
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  border-bottom-left-radius: 4px;
+  cursor: pointer;
+}
+.closeButton:hover{
+  background-color: aqua;
+  
+}
+.addLecture input {
+  width: auto;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

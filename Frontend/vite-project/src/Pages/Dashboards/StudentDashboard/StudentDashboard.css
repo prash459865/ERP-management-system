@@ -1,0 +1,154 @@
+.StudentDashboard {
+  min-height: 100vh;
+  width: 100%;
+  padding: 3%;
+  background-color: #f5f5f5;
+}
+
+.StudentDashboard h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+}
+
+.StudentDashboard > div {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.PersonalDetails {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 20px;
+  height: auto;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.personalImage {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid #4a90e2;
+  background-color: #e0e0e0;
+}
+
+.personalImage img{
+    height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.personalInfo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px 30px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.personalInfo div {
+  background: #f8f8f8;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+.totalAttendence {
+  height: 25rem;
+  overflow-y: auto;
+}
+
+.todayTimetable {
+  height: fit-content;
+}
+
+.subjectAndClassmates {
+  display: flex;
+  gap: 4%;
+  flex-wrap: wrap;
+}
+
+.MySubjects,
+.Classmates {
+  width: 48%;
+  height: 15rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Classmates .ClassmatesBox{
+  height: 95%;
+  width: 100%;
+
+  overflow-y: scroll;
+  gap: 6px;
+}
+.Classmates .ClassmatesBox .particularClassmate{
+  height: 3rem;
+  width: 100%;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  cursor: pointer;
+  border-bottom: 1px solid black;
+}
+
+.MySubjects .subjectBox{
+    height: 95%;
+  width: 100%;
+
+  overflow-y: scroll;
+  gap: 6px;
+}
+.MySubjects .subjectBox .particularSubject{
+   height: 3rem;
+  width: 100%;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  cursor: pointer;
+  border-bottom: 1px solid black;
+}
+.NoticeBox-container{
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.NoticeBox-container .noticeBox{
+ overflow-y: scroll;
+ width: 100%;
+ display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.NoticeBox-container .notice{
+  width: fit-content;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  margin: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: aqua;
+}

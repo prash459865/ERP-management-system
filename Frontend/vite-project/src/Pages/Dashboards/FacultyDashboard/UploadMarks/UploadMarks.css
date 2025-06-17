@@ -1,0 +1,78 @@
+.UploadMarks-Container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    gap: 10%;
+}
+.UploadMarks-Container .studentList{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px;
+    height: 615px;
+    border: 1px solid black;
+    width: 350px;
+    background-color: rgb(246, 243, 243)
+}
+.UploadMarks-Container .studentList ul{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   margin-bottom: 5px;
+}
+
+.UploadMarks-Container .studentList .studentInfo{
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   border: 1px solid black;
+   border-radius: 3px;
+   margin-top: 10px;
+   height: auto;
+   padding: 4px;
+   align-items: center;
+   cursor: pointer;
+}
+.studentChoosed{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   border: 1px solid black;
+   border-radius: 3px;
+   margin-top: 10px;
+  height: auto;
+   padding: 4px;
+   align-items: center;
+   cursor: pointer;
+   background-color: aqua;
+}
+.UploadMarks-Container .options{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2rem;
+    padding: 1rem;
+    border: 1px solid black;
+     background-color: rgb(246, 243, 243)
+}
+.UploadMarks-Container .options ul{
+    list-style: none;
+    gap: 2rem;
+    display: flex;
+}
+.UploadMarks-Container .options ul li{
+    border: 1px solid black;
+    height: 2rem;
+    width: auto;
+    padding: 1rem;
+    display: flex;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+ .backgroundColor{
+    background-color: aqua;
+}

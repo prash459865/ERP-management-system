@@ -1,0 +1,153 @@
+.FacultyDashboard{
+    text-align: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+.allClassessection{
+    display: flex;
+    flex-direction: column;
+    border-radius: 3rem;
+}
+.allClassessection .Classes{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  padding:  4rem;
+}
+.allClassessection .Classes .all-classes{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    height: 15rem;
+    width: 40rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
+.allClassessection .Classes .all-classes .assignedClassesbox{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 1rem;
+    align-items: center;
+    justify-items: center;
+    
+}
+.allClassessection .Classes .all-classes .assignedClassesbox .assignedClasses{
+    border: 1px solid black;
+    width: 40%;
+    height: 50%;
+    border-radius: 4px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.allClassessection .Classes .all-classes .assignedClassesbox .assignedClasses:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+.particularday{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    height: 15rem;
+    width: 30rem;
+    padding: 1rem;
+    border-radius: 5px;
+    
+}
+.particularday ul{
+    list-style: none;
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.5rem;
+    
+
+}
+.particularday li {
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: red;
+    color: white;
+}
+
+.particularday li:hover {
+    transform: translateY(-5px);
+}
+
+.particularday li.afterLectureMarked {
+    background-color: green;
+    color: white;
+}
+
+.personalInfo{
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+    gap: 2rem;
+    height: 15rem;
+    border: 1px solid black;
+    border-radius: 2rem;
+    margin: 10px;
+}
+.personalInfo .image{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 3rem;
+    border: 1px solid black;
+}
+
+.personalInfo .details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 20px;
+    gap: 0.5rem;
+}
+
+.NoticeBox {
+    height: 15rem;
+    border: 1px solid black;
+    border-radius: 3rem;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    overflow: hidden; 
+}
+
+.NoticeBox h3 {
+    margin: 0;
+}
+
+.insideNoticebox {
+    flex: 1;
+    width: 90%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.notice {
+    background-color: aqua;
+    border: 1px solid black;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.Lectures{
+    height: 15rem;
+    border: 1px solid black;
+    margin: 10px;
+}

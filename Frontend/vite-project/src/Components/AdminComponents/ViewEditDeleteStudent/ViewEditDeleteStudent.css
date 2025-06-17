@@ -1,0 +1,61 @@
+.ViewEditDeleteStudent {
+  min-height: 100vh;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f4f6f8;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.searchBar {
+  margin-bottom: 1.5rem;
+  height: 45px;
+  width: 70%;
+  padding-left: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.fullList {
+  width: 80%;
+  margin-bottom: 4%;
+  max-height: 70vh;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  overflow-y: auto;
+  padding: 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.Listheading {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr 2fr;
+  padding: 15px 20px;
+  font-weight: bold;
+  background-color: #f0f0f0;
+  border-bottom: 2px solid #ccc;
+  margin: 0;
+}
+
+.studentItem {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr 2fr;
+  padding: 12px 20px;
+  border-bottom: 1px solid #eee;
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+
+.studentItem:hover {
+  background-color: #f7f3f3;
+  color: blue;
+}
+
+.studentItem:last-child {
+  border-bottom: none;
+}

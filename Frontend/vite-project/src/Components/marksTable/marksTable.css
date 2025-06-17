@@ -1,0 +1,22 @@
+.marksTable-container .editAndSubmit{
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+.marksTable-container .editAndSubmit button{
+    width: fit-content;
+    height: fit-content;
+    margin: 0;
+}
+
+.marksTable-container .marksTable input{
+    border: none;
+    height: 1rem;
+    width: 2.5rem;
+    background-color: rgb(230, 219, 219);
+}
+
+.marksTable-container .marksTable input::placeholder{
+    color: black;
+}

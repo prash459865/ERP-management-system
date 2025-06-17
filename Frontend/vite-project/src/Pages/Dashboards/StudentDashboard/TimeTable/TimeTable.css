@@ -1,0 +1,12 @@
+
+.lectureBox{
+    height:8rem;
+    width: 10rem;
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+.lectureBox:hover{
+    cursor: pointer;
+    background-color: aqua;
+}
