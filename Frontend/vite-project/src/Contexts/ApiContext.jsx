@@ -3,7 +3,7 @@ import React, { createContext, useContext } from 'react';
 const ApiContext = createContext();
 
 export const ApiProvider = ({ children }) => {
-  const baseURL = 'http://localhost:4000';
+  const baseURL = 'https://erp-management-system-ufnb.onrender.com';
 
   return (
     <ApiContext.Provider value={{ baseURL }}>
