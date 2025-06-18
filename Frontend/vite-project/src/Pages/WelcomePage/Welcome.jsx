@@ -14,8 +14,8 @@ const Welcome = () => {
   }, [navigate]);
 
   return (
-    <div className='welcomePage'>
-      Welcome to ERP
+    <div className='welcomePage-container'>
+     <h2>Welcome to ERP</h2>
     </div>
   );
 };
