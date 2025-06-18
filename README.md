@@ -26,7 +26,7 @@ A role-based ERP web application built using the MERN stack. It allows administr
 
 ## 📌 How to Use
 
-1. **Login** as an admin or faculty using pre-created credentials.
+1. **Login** as an admin, faculty, student using pre-created credentials.
 2. **Admins** can:
    - Add/edit/remove students
    - Assign roles and access
@@ -35,7 +35,7 @@ A role-based ERP web application built using the MERN stack. It allows administr
    - View assigned students
    - Mark and view attendance
    - update marks and student of particular student
-4.) **password and id for login
+4.) **password and id for login**
    - Admin -> number = 6393283730 ,password = abcd123
    - Student -> number = 6393283730 ,password = fnkjwan
    - Teacher -> number = 6393283730 ,password = ghye
