@@ -45,7 +45,7 @@ A role-based ERP web application built using the MERN stack. It allows administr
 
 > ⚠️ Since the backend is deployed on **Render's free tier**, it may take **15–30 seconds** to start if idle.
  open the frontend:  
-   👉 [Open ERP Management App (wait ~20 seconds for waking up the backend](https://erp-management-system-1.onrender.com)  
+   👉 [Open ERP Management App (wait ~20 seconds after Login for waking up the backend](https://erp-management-system-1.onrender.com)  
    
 
 ---
