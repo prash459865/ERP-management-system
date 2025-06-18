@@ -34,8 +34,8 @@ A role-based ERP web application built using the MERN stack. It allows administr
 3. **Faculty** can:
    - View assigned students
    - Mark and view attendance
-   - update marks and student of particular student
-4.) **password and id for login**
+   - update marks and student of particular student.
+4. **password and id for login**
    - Admin -> number = 6393283730 ,password = abcd123
    - Student -> number = 6393283730 ,password = fnkjwan
    - Teacher -> number = 6393283730 ,password = ghye
